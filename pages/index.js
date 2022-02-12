@@ -6,7 +6,7 @@ import FilterDesktop from "../components/FilterDesktop";
 import { useState, useEffect } from "react";
 
 function Phys(props) {
-  const breakpoint = 620;
+  const breakpoint = 769;
   const [width, setWidth] = useState(0);
 
   useEffect(() => {
